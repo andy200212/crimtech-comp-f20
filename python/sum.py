@@ -1,5 +1,10 @@
 def sum(lst, n):
-    # Your code here!
+    for i in lst:
+      k = n - i
+      lst.remove(i)
+      if k in lst:
+        return True
+      lst.append(i)
     return False
 
 def test():

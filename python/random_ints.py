@@ -1,8 +1,10 @@
 import random
 
 def random_ints():
-    # Your code here!
     l = []
+    while 6 not in l:
+      j = 1 + (int) (random.random()*10)
+      l.append(j)
     return l
 
 def test():
